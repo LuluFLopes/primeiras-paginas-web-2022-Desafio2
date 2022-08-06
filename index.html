@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+  <header>
+    <img class="center" src="img/logo-padaria.jpg" alt="">
+    <h1 class="center">Lista de Produtos</h1>
+    <nav>
+      <ul>
+        <li class="todos lista-produtos">Todos</li>
+        <li class="bolos lista-produtos">Bolos</li>
+        <li class="carnes lista-produtos">Carnes</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <div class="produtos">
+        <img src="img/bolo-chocolate.jpg" alt="">
+        <h2>Bolo de Chocolate</h2>
+        <p class="sub-titulo">Bolos</p>
+        <p class="favoritar">★</p>
+      </div>
+
+      <div class="produtos">
+        <img class="size" src="img/bolo-fuba.jpg" alt="">
+        <h2>Bolo de Fubá</h2>
+        <p class="sub-titulo">Bolos</p>
+        <p class="favoritar">★</p>
+      </div>
+
+      <div class="produtos">
+        <img class="size" src="img/parmegiana.jpg" alt="">
+        <h2>Bife a Parmegiana</h2>
+        <p class="sub-titulo">Carnes</p>
+        <p class="favoritar">★</p>
+      </div>
+
+      <div class="produtos">
+        <img class="size" src="img/churrasqueira.jpg" alt="">
+        <h2>Hamburguer de Churrasqueira</h2>
+        <p class="sub-titulo">Carnes</p>
+        <p class="favoritar">★</p>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="js/filtro.js"></script>
+<script src="js/selecionado.js"></script>
 </html>
