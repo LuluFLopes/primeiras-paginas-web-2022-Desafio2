@@ -10,8 +10,6 @@ for (let i = 0; i < menuNavegacao.length; i++) {
 
         let botoes = event.target;
 
-        console.log(botoes);
-
         if (botoes.classList.contains("selecionado")) {
 
             botoes.classList.remove("selecionado");

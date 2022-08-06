@@ -1,5 +1,6 @@
 const listaProdutos = document.querySelectorAll(".produtos");
 
+
 document.addEventListener("click", (event) => {
 
     let click = event.target;
@@ -10,7 +11,11 @@ document.addEventListener("click", (event) => {
 
     }
 
-    limpaFiltros(listaProdutos);
+    if (click.classList.contains("todos") || click.classList.contains("bolos") || click.classList.contains("carnes")) {
+
+        limpaFiltros(listaProdutos);
+
+    }
 
     listaProdutos.forEach((produto) => {
 
